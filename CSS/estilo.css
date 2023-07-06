@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    font: 18px/1.4 arial, sans-serif; 
+    color: #333; 
+    background: #ccc;
+}
+
+#tudo {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #036;
+}
+
+.topo_header{
+    background: #036;
+    padding: 5px 20px;
+}
+
+.topo_header h1 {
+    font-size: 36px;
+    text-align: right;
+    margin: 4px 0 2px 0;
+}
+
+.topo_header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.topo_header h2 {
+    font-size: 20px;
+    text-align: right;
+    margin: 2px 0 4px 0;
+    color: #fff;
+}
+
+.principal {
+    width: 80%;
+    float: right;
+    padding-right: 15px;
+}
+
+.auxiliar{
+    width: 18.3333;
+    float: left;
+    padding-left: 15px;
+}
+
+.rodape{
+    clear: both;
+    height: 25px;
+    background:#036;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.auxiliar_navegacao h2 {
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.auxiliar_navegacao a{
+    background: #ff6e19;
+    color: #fff;
+    display: block;
+    margin-bottom: 1px;
+    line-height: 2;
+    padding-left: 10px;
+    text-transform:capitalize;
+    text-align: center;
+}
+
+.auxiliar_parceiros_textos {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.auxiliar_parceiros_textos li {
+    margin-bottom: 3px;
+    background: #eee;
+}
+
+.auxiliar_parceiros_textos a {
+    padding: 8px 0;
+    color: #333;
+    display: block;
+}
